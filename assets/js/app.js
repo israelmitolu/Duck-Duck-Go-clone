@@ -78,6 +78,7 @@ let searchBtn = document.querySelector(".search-btn")
 
 
 searchBtn.onclick = () =>{
-    let url = "https://www.google.com/search?q=" + query.value;
-    window.open(url, '_self'); //So JS doesnt open a new window
+    let url = "https://duckduckgo.com/?q=" + query.value;
+    window.open(url); 
 }
+
