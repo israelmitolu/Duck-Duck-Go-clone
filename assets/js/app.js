@@ -77,5 +77,6 @@ let searchBtn = document.querySelector(".search-btn")
 
 searchBtn.onclick = () =>{
     let url = "https://duckduckgo.com/?q=" + query.value;
-    window.open(url);
+    window.open(url); 
 }
+
