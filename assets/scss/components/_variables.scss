@@ -1,0 +1,19 @@
+//Themes
+html {
+  --blue: #678fff;
+  --lynxWhite: #f7f7f7;
+  --burntSienna: #e37151;
+  --PaynesGrey: #353748;
+  --darkGrey: #888;
+  --lightGrey: #999;
+  --dimGrey: #6d6d6d;
+  --green: #66ad57;
+  --mainFont: "Rubik", sans-serif;
+  --lightGrey-Filter: invert(80%) sepia(9%) saturate(16%) hue-rotate(343deg)
+    brightness(86%) contrast(84%);
+  --darkGrey-Filter: #999;
+  --white-Filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg)
+    brightness(110%) contrast(110%);
+  --blue-Filter: invert(48%) sepia(79%) saturate(1121%) hue-rotate(203deg)
+    brightness(101%) contrast(101%);
+}

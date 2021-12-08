@@ -1,0 +1,78 @@
+@media screen and (min-width: 480px) {
+  .content-item {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .search-form {
+    width: 665px;
+  }
+  .top-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li {
+      padding: 0;
+    }
+  }
+  .content-item {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .curved-content-wrapper h2 {
+    font-size: 2.5rem;
+  }
+  .curved-content-wrapper .text {
+    font-size: 1.2rem;
+  }
+  .faq-list {
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .content-item {
+    width: 100%;
+    z-index: 1;
+    height: 360px;
+  }
+  .content-mid-list {
+    width: 92%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    margin-bottom: -26rem;
+  }
+  .curved-content-wrapper {
+    padding-top: 12rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content-mid-list {
+    width: 70%;
+  }
+  .curved-content-wrapper img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .curved-content-wrapper {
+    padding-top: 9rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .curved-content-wrapper {
+    padding-top: 7rem;
+  }
+}
+/*** show faq-body ***/
+.show-faq-body {
+  max-height: 800px;
+  padding-top: 1.6rem;
+}
