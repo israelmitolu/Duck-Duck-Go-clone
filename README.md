@@ -1,3 +1,5 @@
-﻿# Duck-Duck-Go-clone
+﻿# Duck-Duck-Go-clone 
 
-Live on https://duckduckgoo.netlify.app
+Built with HTML, SCSS and Vanilla Javascript. 
+
+The clone is live on https://duckduckgoo.netlify.app
